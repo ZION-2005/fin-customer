@@ -1,5 +1,5 @@
 import connect from "@/lib/db";
-import Customer from "@/models/customer";
+import Customer from "@/models/Customer";
 import { NextResponse } from "next/server";
 
 // GET all customers

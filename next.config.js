@@ -1,5 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: { instrumentationHook: true },
-};
+  basePath: '/fin-customer',
+  reactStrictMode: true,
+  output: 'standalone',
+}
+
 export default nextConfig;
